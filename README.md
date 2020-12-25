@@ -1,8 +1,24 @@
 # README
 
-## Rails on Docker
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## 参考サイト
-- https://docs.docker.com/compose/rails/
-- https://qiita.com/hb5kz/items/7c9d266480079910de5c
+Things you may want to cover:
 
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
