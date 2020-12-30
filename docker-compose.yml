@@ -11,7 +11,7 @@ services:
     networks:
       - rails_on_docker_network
     ports:
-      - 3306:3306
+      - 4306:3306
   web:
     build: .
     container_name: rails_on_docker
