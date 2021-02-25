@@ -1,0 +1,49 @@
+# 参考URL
+# https://magazine.rubyist.net/articles/0009/0009-YAML.html
+
+# 配列
+# - aaa
+# -
+#   - b1
+#   - b2
+#   -
+#     - b3.1
+#     - b3.2
+# - ccc
+
+# ダメな形式
+# - A
+#   - a1
+#   - a2
+#   - a3
+
+
+# ハッシュ
+# A: aaa
+# B: bbb
+# C: ccc
+
+# A: aaa
+# B:
+#   B1: bbb1
+#   B2: bbb2
+# C: ccc
+
+# ダメな形式
+# A: foo
+#   a1: bar
+#   a2: baz
+
+
+# 配列とハッシュのネスト
+
+# 配列の中にハッシュをネスト
+- name:  Hanako
+  email: flower@mail.com
+- name:  Sumire
+  email: garnet@mail.net
+- name:  Momoko
+  email: peach@mail.org
+
+
+# 
